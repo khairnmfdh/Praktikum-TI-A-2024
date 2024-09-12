@@ -11,7 +11,7 @@ public class input{
 
         //deklarasi variabel  inisialisasi variabel
         //[tipe data][nama] = [inisialisasi value];
-        String nama1 = "Khai";
+        String nama1 = "Salsa";
        
         //proses
         //operasi aritmatika

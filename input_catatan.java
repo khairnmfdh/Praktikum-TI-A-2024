@@ -11,7 +11,7 @@ public class input_catatan{
 
         //deklarasi variabel inisialisasi variabel
         //
-        String nama1 = "Khai";
+        String nama1 = "Salsa";
        
         //proses
         //operasi aritmatika
