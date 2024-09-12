@@ -6,7 +6,7 @@ import java.util.*;
     //import package.name.*     =
     //import java.util.*        =
 
-public class input{
+public class input_catatan{
     public static void main(String[] args) {
 
         //deklarasi variabel inisialisasi variabel
@@ -89,7 +89,9 @@ public class input{
         //escape characters
         // \n  \t   
 
-        //printf : .....
+
+        //output format = .....
+        
         //%s = ....
         //%d = ....
         //%f = ....
@@ -115,6 +117,10 @@ public class input{
 
         //printf lanjut (SPASI)
         
-        //
+        //%[jumlah spasi]d/f/s
+        // --> ....
+
+        //%-[jumlah spasi]d/f/s
+        // --> ....
     }
 }
