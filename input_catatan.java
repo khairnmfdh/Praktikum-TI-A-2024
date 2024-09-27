@@ -11,6 +11,7 @@ public class input_catatan{
 
         //deklarasi variabel inisialisasi variabel
         //
+
         String nama1 = "Salsa";
        
         //proses
@@ -54,6 +55,7 @@ public class input_catatan{
         Scanner input = new Scanner(System.in);
         String nama = input.nextLine();
         int umur = input.nextInt();
+
 
         //jika ingin menggunakan input.nextLine(), perhatikan input yang digunakan sebelumnya
         //jika input sebelumnya adalah yang selain nextLine(), maka wajib menuliskan?**
