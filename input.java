@@ -103,6 +103,7 @@ public class input{
 
         //%,[jumlah angka terpisah]d 
         // --> memisahkan angka bulat dengan koma berdasarkan jumlah angka yang ditentukan
+        System.out.printf("%,3d", 1000000);
 
         //%0[jumlah angka yang ditampilkan]f/d 
         // --> mengisi sisa angka yang tidak ditampilkan di depan dengan angka 0
