@@ -1,15 +1,14 @@
+import java.util.*;
+
 public class test1 {
     public static void main(String[] args) {
-        int x = 0;
-        while (x<9) {
-            x++;
-            System.out.println("Perulangan saat ini: "+(x+1));
+        Scanner in = new Scanner(System.in);
+        
+        int x = 1;
+        do {
+            x++; // x+2 = 3
+            System.out.println(x); // 3
+        } while (x<3);
 
-            if (x==7) {
-                continue; //LONCATI 1 LOOP
-            }
-
-            System.out.println("Program lanjut");
-        }
     }
 }

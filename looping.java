@@ -57,6 +57,11 @@ public class looping {
                 continue; //LONCATI 1 LOOP
             }
 
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
             System.out.println("Program lanjut");
         }
 
@@ -166,7 +171,22 @@ public class looping {
         }
 
 
-        //
-        //PALINDROME
+        x = 3;
+        do {
+            System.out.println(x);
+        } while (x<3);
+
+
+        //PALINDROME 
+        //FOR LOOP
+
+
+        //MENCARI NILAI TERBESAR (INPUT BERAPA BANYAK BILANGAN YANG MAU DIBANDINGKAN)
+        //FOR LOOP
+
+
+        //PROGRAM REMOTE TV
+        //WHILE
+
     }
 }
