@@ -11,14 +11,14 @@ public class cekPalindrome {
             int j = kata.charAt(kata.length() - 1 - i);
             int c = kata.charAt(i);
             if (c != j) {
-                System.out.println(kata + " bukan kata palindrome.");
+                System.out.println(kata + " bukan sebuah palindrome.");
                 PalindromeFlag = false;
                 break;
             }
         }
 
         if (PalindromeFlag) {  //kalau bukan palindrome
-            System.out.println(kata + " adalah kata palindrome.");
+            System.out.println(kata + " adalah sebuah palindrome.");
         }
     }
 }

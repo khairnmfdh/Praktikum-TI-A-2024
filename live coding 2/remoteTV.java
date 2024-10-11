@@ -15,15 +15,16 @@ public class remoteTV {
         int volumeMin = 0;
         int volumeMax = 100;
 
-        while (true) {
-            System.out.println("Tombol remot TV");
-            System.out.println("1 : Naik channel"); //increment 1 
-            System.out.println("2 : Turun channel"); //decrement 1
-            System.out.println("3 : Naik volume"); //increment 10
-            System.out.println("4 : Turun volume"); //decrement 10
-            System.out.println("0 : Matikan TV");
+        System.out.println("Tombol remot TV");
+        System.out.println("1 : Naik channel"); //increment 1 
+        System.out.println("2 : Turun channel"); //decrement 1
+        System.out.println("3 : Naik volume"); //increment 10
+        System.out.println("4 : Turun volume"); //decrement 10
+        System.out.println("0 : Matikan TV");
+        System.out.println("");
 
-            System.out.println("\nMasukkan angka tombol yang ingin ditekan:");
+        while (true) {
+            System.out.println("Masukkan angka tombol yang ingin ditekan:");
             int tombol = in.nextInt();
 
             switch (tombol) {

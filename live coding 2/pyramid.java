@@ -5,8 +5,8 @@ public class pyramid {
         Scanner in = new Scanner(System.in);
         int baris = in.nextInt();
 
-        for (int i=baris; i>0; i--) {
-            for (int j=i-1; j>0; j--) {
+        for (int i=baris; i>=0; i--) {
+            for (int j=i-1; j>=0; j--) {
                 System.out.print(" ");
             }
             

@@ -10,7 +10,7 @@ public class cariMax {
         int jumlahAngka = in.nextInt();
         int angkaTerbesar = 0;
         int angkaTerkecil = 2000000;
-        int total = 0;
+        double total = 0;
 
         for (int i=0; i<jumlahAngka; i++) {
             System.out.println("Angka ke-" + (i+1) + ": ");
@@ -22,6 +22,6 @@ public class cariMax {
         
         System.out.println("Angka terbesar adalah: " + angkaTerbesar);
         System.out.println("Angka terkecil adalah: " + angkaTerkecil);
-        System.out.println("Rata-rata seluruh angka adalah: " + total/jumlahAngka);
+        System.out.println("Rata-rata dari semua angka adalah: " + total/jumlahAngka);
     }
 }
